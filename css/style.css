@@ -1,0 +1,73 @@
+/* Apply below style to al elements */
+*{
+    font-family: Raleway, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    
+}
+
+body{
+    background-color: #f7f3f3;
+}
+
+.heading{
+    text-align: center;
+    font-size: 30px;
+    padding: 22px 0px ; /*padding y-axis 22px x0px */
+    color:#00cc99;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(240px, 1fr)); 
+    grid-gap:15px;
+    padding: 20px;
+}
+
+.card-container .card{
+    padding:10px;
+    border: 3px solid #00cc99;
+    border-radius: 10px;
+    text-align: center;
+    background: #ffffff;
+    box-shadow: 5px 5px #00cc99;
+
+}
+
+.card-container .card .card-icon{
+    margin-top: 10px;
+
+}
+
+.card-container .card .cart-item span{
+    margin: 0px 10px;
+    font-size: 32px;
+    color: #00cc99;
+}
+
+.card-container .card .card-title{
+    color: #00cc99;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.card-container .card p{
+    font-size: 14px;
+    color: #999292;
+    padding:10px;
+}
+
+.card-container .card a{
+    color: #00cc99;
+     text-emphasis: none;
+     display: block;/* make the anchor fill the whole row width*/
+    font-size: 18px;
+    padding: 10px 0; /* padding on y-axis = 10 x axis =0 px */
+}
+
+.card-container .card a:hover{
+    color: #445c56;
+
+}
